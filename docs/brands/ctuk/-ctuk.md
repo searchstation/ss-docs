@@ -18,7 +18,7 @@ permalink: /brands/ctuk
 ---
 
 ### Content
-"Content incoming."
+"Content coming soon".
 
 
 {: .fs-6 .fw-300 }

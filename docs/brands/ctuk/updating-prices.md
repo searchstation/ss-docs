@@ -17,4 +17,4 @@ nav_order: 5
 ---
 
 ### Content
-"Content incoming"
+"Content coming soon".

@@ -17,8 +17,8 @@ permalink: /docs/brands/ctx
    {:toc}
 ---
 
-<h3>Content</h3>
-"Content incoming"
+### Content
+"Content coming soon".
 
 
 {: .fs-6 .fw-300 }
