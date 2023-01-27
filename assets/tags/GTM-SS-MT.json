@@ -1,0 +1,387 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-01-26 19:46:15",
+    "containerVersion": {
+        "path": "accounts/6069200330/containers/100448857/versions/7",
+        "accountId": "6069200330",
+        "containerId": "100448857",
+        "containerVersionId": "7",
+        "name": "Template for Master Tag",
+        "container": {
+            "path": "accounts/6069200330/containers/100448857",
+            "accountId": "6069200330",
+            "containerId": "100448857",
+            "name": "dragonlord.local",
+            "publicId": "GTM-PD2MZ64",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1673910582381",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6069200330/containers/100448857/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-PD2MZ64"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "tagId": "3",
+                "name": "GA4 Config | [Website Tracked]",
+                "type": "gaawc",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendPageView",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableSendToServerContainer",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementId",
+                        "value": "G-XXXXXXXXXX"
+                    }
+                ],
+                "fingerprint": "1674762045115",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "tagId": "8",
+                "name": "Search Station | Master Tag",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "form_title"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | form_title}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "form_entry"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | form_entry}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "postcode_value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | postcode_value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "postcode_status"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | postcode_status}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "calendly_action"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | calendly_action}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TAG_REFERENCE",
+                        "key": "measurementId",
+                        "value": "GA4 Config | [Website Tracked]"
+                    }
+                ],
+                "fingerprint": "1674579594367",
+                "firingTriggerId": [
+                    "5"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "triggerId": "5",
+                "name": "Search Station | Master Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "generate_lead|postcode_lookup|calendly"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1674577294157"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "variableId": "9",
+                "name": "Data Layer Variable | form_title",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_title"
+                    }
+                ],
+                "fingerprint": "1674576797461",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "variableId": "10",
+                "name": "Data Layer Variable | form_entry",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_entry"
+                    }
+                ],
+                "fingerprint": "1674576899414",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "variableId": "11",
+                "name": "Data Layer Variable | postcode_value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "postcode_value"
+                    }
+                ],
+                "fingerprint": "1674577593660",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "variableId": "12",
+                "name": "Data Layer Variable | postcode_status",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "postcode_status"
+                    }
+                ],
+                "fingerprint": "1674645011070",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "variableId": "13",
+                "name": "Data Layer Variable | calendly_action",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "calendly_action"
+                    }
+                ],
+                "fingerprint": "1674577811242",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1674762353615",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6069200330/containers/100448857/versions/7?apiLink=version"
+    }
+}
