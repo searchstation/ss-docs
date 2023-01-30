@@ -1,12 +1,12 @@
 ---
 layout: default
-title: E-Commerce Tracking
+title: WooCommerce Tracking
 parent: Analytics
 grand_parent: General
 nav_order: 2
 ---
 
-# E-Commerce Tracking
+# WooCommerce Tracking
 {: .no_toc}
 
 ## Table of Contents
