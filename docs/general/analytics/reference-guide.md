@@ -19,11 +19,11 @@ nav_order: 4
 ### Introduction
 This Reference Guide is aimed at providing more guidance to the processes employed in creating a system around the Search Station Tracking Setup. 
 
-### Master Tag (SS-MT)
-The Search Station Master Tag contains all the events tracked on brochure websites by Search Station across board. It is to be updated as new events of interests come up. 
+### (SS-MT.json)
+The Search Station Master Tag (SS-MT.json) contains all the events tracked on brochure websites by Search Station across board. It is to be updated as new events of interests come up. 
 
-### WooCommerce Master Tag (SS-WC-MT)
-The Search Station WooCommerce Master Tag contains all the events tracked on e-commerce (WooCommerce) websites by Search Station across board. It is to be updated as new events of interests come up. It contains woocommerce events and all the events in the Search Station Master Tag.
+### (SS-WC-MT.json)
+The Search Station WooCommerce Master Tag (SS-WC-MT.json) contains all the events tracked on e-commerce (WooCommerce) websites by Search Station across board. It is to be updated as new events of interests come up. It contains woocommerce events and all the events in the Search Station Master Tag.
 
 ### Tracked Sites
 A list of sites that have been set up in line with the Search Station Tracking System are as follows; 
@@ -44,11 +44,11 @@ A list of sites that have been set up in line with the Search Station Tracking S
 ### Tracked Events
 Events tracked by the Search Station Tracking System are;
 
-| No. | event                 | parameter1(`parameter_value`)...                             | Push Method |
-|:----|:----------------------|:-------------------------------------------------------------|:------------|
-|  1  | generate_lead         | form_title(`variable`), form_entry(`variable`)               | PHP         |
-|  2  | postcode_lookup       | postcode_value(`variable`), postcode_status(`'String'`)      | JavaScript  |
-|  3  | calendly              | calendly_action(`'string_value'`)                            | JavaScript  |
+| No. | event            | parameter1(`parameter_value`)...                         | Sites Used               | Theoretical file    | Push Tech   |
+|:----|:-----------------|:---------------------------------------------------------|:-------------------------|:--------------------|:------------|
+|  1  | generate_lead    | form_title(`variable`), form_entry(`variable`)           | Sites with Gravity Forms | theme-support.php   | PHP         |
+|  2  | postcode_lookup  | postcode_value(`variable`), postcode_status(`'String'`)  | LineMark                 | postcode-lookup.php | JavaScript  |
+|  3  | calendly         | calendly_action(`'string_value'`)                        | LineMark                 | ga-events.js        | JavaScript  |
 
 ### Code Samples
 The events can be executed with the respective code snippets;
