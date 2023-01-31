@@ -1,0 +1,585 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2023-01-30 12:13:03",
+    "containerVersion": {
+        "path": "accounts/6069200330/containers/101297795/versions/3",
+        "accountId": "6069200330",
+        "containerId": "101297795",
+        "containerVersionId": "3",
+        "name": "Search Station WooCommerce Master Tag V1",
+        "container": {
+            "path": "accounts/6069200330/containers/101297795",
+            "accountId": "6069200330",
+            "containerId": "101297795",
+            "name": "praetorian.local",
+            "publicId": "GTM-M2WWTQP",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1675076952629",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6069200330/containers/101297795/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-M2WWTQP"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "tagId": "9",
+                "name": "Search Station | WooCommerce | Master Tag",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventParameters",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "form_title"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | form_title}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "form_entry"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | form_entry}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "postcode_value"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | postcode_value}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "postcode_status"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | postcode_status}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "name",
+                                        "value": "calendly_action"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{Data Layer Variable | calendly_action}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementId",
+                        "value": "none"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "G-XXXXXXXXXX"
+                    }
+                ],
+                "fingerprint": "1675080668026",
+                "firingTriggerId": [
+                    "8"
+                ],
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "triggerId": "8",
+                "name": "Search Station | WooCommerce | Master Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "add_payment_info|add_shipping_info|add_to_cart|begin_checkout|calendly|generate_lead|postcode_lookup|purchase|remove_from_cart|select_item|view_cart|view_item|view_item_list"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1675079318451",
+                "parentFolderId": "3"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "4",
+                "name": "Ecommerce Value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.value"
+                    }
+                ],
+                "fingerprint": "1675077968226",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "5",
+                "name": "Ecommerce Coupon",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.coupon"
+                    }
+                ],
+                "fingerprint": "1675077968227",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "6",
+                "name": "Ecommerce Shipping",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.shipping"
+                    }
+                ],
+                "fingerprint": "1675077968227",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "7",
+                "name": "Ecommerce Currency",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.currency"
+                    }
+                ],
+                "fingerprint": "1675077968227",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "10",
+                "name": "Undefined",
+                "type": "uv",
+                "fingerprint": "1675077968229",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "11",
+                "name": "Ecommerce Items",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "{{Undefined}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.items"
+                    }
+                ],
+                "fingerprint": "1675077968229",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "12",
+                "name": "Ecommerce Tax",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.tax"
+                    }
+                ],
+                "fingerprint": "1675077968229",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "13",
+                "name": "Ecommerce Transaction ID",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.transaction_id"
+                    }
+                ],
+                "fingerprint": "1675077968230",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "14",
+                "name": "Ecommerce Affiliation",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.affiliation"
+                    }
+                ],
+                "fingerprint": "1675077968230",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "16",
+                "name": "Data Layer Variable | form_title",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_title"
+                    }
+                ],
+                "fingerprint": "1675079687946",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "17",
+                "name": "Data Layer Variable | form_entry",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "form_entry"
+                    }
+                ],
+                "fingerprint": "1675079696307",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "18",
+                "name": "Data Layer Variable | postcode_value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "postcode_value"
+                    }
+                ],
+                "fingerprint": "1675079667556",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "19",
+                "name": "Data Layer Variable | postcode_status",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "postcode_status"
+                    }
+                ],
+                "fingerprint": "1675079676345",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "variableId": "20",
+                "name": "Data Layer Variable | calendly_action",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "calendly_action"
+                    }
+                ],
+                "fingerprint": "1675079702175",
+                "parentFolderId": "3",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "folderId": "3",
+                "name": "Search Station E-Commerce Master Tag",
+                "fingerprint": "1675077968225"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6069200330",
+                "containerId": "101297795",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1675080749840",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6069200330/containers/101297795/versions/3?apiLink=version"
+    }
+}

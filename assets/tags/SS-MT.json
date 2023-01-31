@@ -1,12 +1,12 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2023-01-26 19:46:15",
+    "exportTime": "2023-01-30 12:13:59",
     "containerVersion": {
-        "path": "accounts/6069200330/containers/100448857/versions/7",
+        "path": "accounts/6069200330/containers/100448857/versions/9",
         "accountId": "6069200330",
         "containerId": "100448857",
-        "containerVersionId": "7",
-        "name": "Template for Master Tag",
+        "containerVersionId": "9",
+        "name": "Search Station Master Tag V1",
         "container": {
             "path": "accounts/6069200330/containers/100448857",
             "accountId": "6069200330",
@@ -38,41 +38,6 @@
             ]
         },
         "tag": [
-            {
-                "accountId": "6069200330",
-                "containerId": "100448857",
-                "tagId": "3",
-                "name": "GA4 Config | [Website Tracked]",
-                "type": "gaawc",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "sendPageView",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableSendToServerContainer",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "measurementId",
-                        "value": "G-XXXXXXXXXX"
-                    }
-                ],
-                "fingerprint": "1674762045115",
-                "firingTriggerId": [
-                    "2147479553"
-                ],
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_SET"
-                }
-            },
             {
                 "accountId": "6069200330",
                 "containerId": "100448857",
@@ -172,15 +137,21 @@
                         ]
                     },
                     {
-                        "type": "TAG_REFERENCE",
+                        "type": "TEMPLATE",
                         "key": "measurementId",
-                        "value": "GA4 Config | [Website Tracked]"
+                        "value": "none"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "G-XXXXXXXXXX"
                     }
                 ],
-                "fingerprint": "1674579594367",
+                "fingerprint": "1675080653300",
                 "firingTriggerId": [
                     "5"
                 ],
+                "parentFolderId": "14",
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
@@ -209,12 +180,13 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "generate_lead|postcode_lookup|calendly"
+                                "value": "calendly|generate_lead|postcode_lookup"
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1674577294157"
+                "fingerprint": "1675079873647",
+                "parentFolderId": "14"
             }
         ],
         "variable": [
@@ -241,7 +213,8 @@
                         "value": "form_title"
                     }
                 ],
-                "fingerprint": "1674576797461",
+                "fingerprint": "1675079766902",
+                "parentFolderId": "14",
                 "formatValue": {}
             },
             {
@@ -267,7 +240,8 @@
                         "value": "form_entry"
                     }
                 ],
-                "fingerprint": "1674576899414",
+                "fingerprint": "1675079761036",
+                "parentFolderId": "14",
                 "formatValue": {}
             },
             {
@@ -293,7 +267,8 @@
                         "value": "postcode_value"
                     }
                 ],
-                "fingerprint": "1674577593660",
+                "fingerprint": "1675079795975",
+                "parentFolderId": "14",
                 "formatValue": {}
             },
             {
@@ -319,7 +294,8 @@
                         "value": "postcode_status"
                     }
                 ],
-                "fingerprint": "1674645011070",
+                "fingerprint": "1675079775364",
+                "parentFolderId": "14",
                 "formatValue": {}
             },
             {
@@ -345,8 +321,18 @@
                         "value": "calendly_action"
                     }
                 ],
-                "fingerprint": "1674577811242",
+                "fingerprint": "1675079755043",
+                "parentFolderId": "14",
                 "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6069200330",
+                "containerId": "100448857",
+                "folderId": "14",
+                "name": "Search Station Master Tag",
+                "fingerprint": "1675079747745"
             }
         ],
         "builtInVariable": [
@@ -381,7 +367,7 @@
                 "name": "Event"
             }
         ],
-        "fingerprint": "1674762353615",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6069200330/containers/100448857/versions/7?apiLink=version"
+        "fingerprint": "1675080707566",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6069200330/containers/100448857/versions/9?apiLink=version"
     }
 }

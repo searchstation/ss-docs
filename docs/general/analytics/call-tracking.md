@@ -47,5 +47,5 @@ There are three aspects to be considered in order to successfully pull Call Trac
     - The parameters should set as follows;
       - Field: Tracking Pool Name [Parameter Name: tracking_pool_name].
       - Field: Call Duration (seconds) [Parameter Name: call_duration].
-      - Field: Conversion Page URL [Parameter Name: conversionpage_url].
+      - Field: Conversion Page URL [Parameter Name: conversion_page_url].
 5. Once this is done, "Save" the configuration, ensure that the integration is enabled on Infinity Hub and return to GA4.
