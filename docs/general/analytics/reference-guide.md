@@ -44,11 +44,11 @@ A list of sites that have been set up in line with the Search Station Tracking S
 ### Tracked Events
 Events tracked by the Search Station Tracking System are;
 
-| No. | event                 | parameter1(`parameter_value`), parameter2(`'String Value'`),...            | Push Method |
-|:----|:----------------------|:---------------------------------------------------------------------------|:------------|
-|  1  | generate_lead         | form_title(`variable`), form_entry(`variable`)                             | PHP         |
-|  2  | postcode_lookup       | postcode_value(`variable`), postcode_status(`'String'`)                    | JavaScript  |
-|  3  | calendly              | calendly_action(`'string_value'`)                                          | JavaScript  |
+| No. | event                 | parameter1(`parameter_value`)...                             | Push Method |
+|:----|:----------------------|:-------------------------------------------------------------|:------------|
+|  1  | generate_lead         | form_title(`variable`), form_entry(`variable`)               | PHP         |
+|  2  | postcode_lookup       | postcode_value(`variable`), postcode_status(`'String'`)      | JavaScript  |
+|  3  | calendly              | calendly_action(`'string_value'`)                            | JavaScript  |
 
 ### Code Samples
 The events can be executed with the respective code snippets;
