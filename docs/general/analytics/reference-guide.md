@@ -28,23 +28,23 @@ The Search Station WooCommerce Master Tag (SS-WC-MT.json) contains all the event
 ### Tracked Sites
 A list of sites that have been set up in line with the Search Station Tracking System are as follows; 
 
-| No. | Website       | Domain                                                                        | Type       | Tag       | Brand |
-|:----|:--------------|:------------------------------------------------------------------------------|:-----------|:----------|:------|
-|  1  | CIS           | [contractinteriorsystems.co.uk](https://www.contractinteriorsystems.co.uk/)   | Brochure   | SS-MT     |  WIC  |
-|  2  | CTX           | [ceilingtilesexpress.co.uk](https://ceilingtilesexpress.co.uk/)               | E-Commerce | SS-WC-MT  |  WIC  |
-|  3  | WIS           | [workplaceinteriorshop.co.uk](https://workplaceinteriorshop.co.uk/)           | E-Commerce | SS-WC-MT  |  WIC  |
-|  4  | Gravity       | [gravityofficeinteriors.co.uk](https://www.gravityofficeinteriors.co.uk/)     | Brochure   | SS-MT     |  WIC  |
-|  5  | GPUK          | [glasspartitioninguk.co.uk](https://www.glasspartitioninguk.co.uk/)           | Brochure   | SS-MT     |  WIC  |
-|  6  | Ruya          | [ruyarecruitment.com](https://ruyarecruitment.com/)                           | Brochure   | SS-MT     |  WIC  |
-|  7  | Lake & Co.    | [lakecoflooring.co.uk](https://lakecoflooring.co.uk/)                         | Brochure   | SS-MT     |  WIC  |
-|  8  | LineMark      | [line-mark.com](https://www.line-mark.com/)                                   | Brochure   | SS-MT     |  SS   |
+| No. | Website       | Domain                                                                                                 | Type       | Tag       | Brand |
+|:----|:--------------|:-------------------------------------------------------------------------------------------------------|:-----------|:----------|:------|
+|  1  | CIS           | <a href="https://www.contractinteriorsystems.co.uk/" target="_blank">contractinteriorsystems.co.uk</a> | Brochure   | SS-MT     |  WIC  |
+|  2  | CTX           | <a href="https://ceilingtilesexpress.co.uk/" target="_blank">ceilingtilesexpress.co.uk</a>             | E-Commerce | SS-WC-MT  |  WIC  |
+|  3  | WIS           | <a href="https://workplaceinteriorshop.co.uk/" target="_blank">workplaceinteriorshop.co.uk</a>         | E-Commerce | SS-WC-MT  |  WIC  |
+|  4  | Gravity       | <a href="https://www.gravityofficeinteriors.co.uk/" target="_blank">gravityofficeinteriors.co.uk</a>   | Brochure   | SS-MT     |  WIC  |
+|  5  | GPUK          | <a href="https://www.glasspartitioninguk.co.uk/" target="_blank">glasspartitioninguk.co.uk</a>         | Brochure   | SS-MT     |  WIC  |
+|  6  | Ruya          | <a href="https://ruyarecruitment.com/" target="_blank">ruyarecruitment.com</a>                         | Brochure   | SS-MT     |  WIC  |
+|  7  | Lake & Co.    | <a href="https://lakecoflooring.co.uk/" target="_blank">lakecoflooring.co.uk</a>                       | Brochure   | SS-MT     |  WIC  |
+|  8  | LineMark      | <a href="https://www.line-mark.com/" target="_blank">line-mark.com</a>                                 | Brochure   | SS-MT     |  SS   |
 
 
 
 ### Tracked Events
 Events tracked by the Search Station Tracking System are;
 
-| No. | event            | parameter1(`parameter_value`)...                         | Sites Used               | Theoretical file    | Push Tech   |
+| No. | event            | parameter_name(`parameter_value`)...                     | Sites Used               | Theoretical file    | Push Tech   |
 |:----|:-----------------|:---------------------------------------------------------|:-------------------------|:--------------------|:------------|
 |  1  | generate_lead    | form_title(`variable`), form_entry(`variable`)           | Sites with Gravity Forms | theme-support.php   | PHP         |
 |  2  | postcode_lookup  | postcode_value(`variable`), postcode_status(`'String'`)  | LineMark                 | postcode-lookup.php | JavaScript  |
