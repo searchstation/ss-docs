@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Adding New Products
-parent: WIS
-grand_parent: Brands
-nav_order: 2
+title: Products
+parent: CTUK
+grand_parent: WIC Brands
+nav_order: 1
 ---
 
-# Adding New Products
+# Products
 {: .no_toc}
 
 ## Table of Contents

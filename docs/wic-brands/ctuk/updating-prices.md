@@ -2,7 +2,7 @@
 layout: default
 title: Updating Prices
 parent: CTUK
-grand_parent: Brands
+grand_parent: WIC Brands
 nav_order: 5
 ---
 

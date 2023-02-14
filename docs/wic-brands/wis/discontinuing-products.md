@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Discontinuing Products
-parent: CTX
-grand_parent: Brands
+parent: WIS
+grand_parent: WIC Brands
 nav_order: 4
 ---
 

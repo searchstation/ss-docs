@@ -1,14 +1,13 @@
 ---
 layout: default
-title: General
+title: WIC Brands
 has_children: true
-nav_order: 5
-permalink: /general
+nav_order: 2
+permalink: /wic-brands
 ---
 
-# General
+# WIC Brands
 
 ### Content
 "Content coming soon".
-
 {: .fs-6 .fw-300 }

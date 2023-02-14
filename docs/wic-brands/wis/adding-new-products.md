@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Updating Prices
+title: Adding New Products
 parent: WIS
-grand_parent: Brands
-nav_order: 5
+grand_parent: WIC Brands
+nav_order: 2
 ---
 
-# Updating Prices
+# Adding New Products
 {: .no_toc}
 
 ## Table of Contents

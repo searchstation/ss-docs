@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Brands
+title: SS Brands
 has_children: true
-nav_order: 2
-permalink: /brands
+nav_order: 3
+permalink: /ss-brands
 ---
 
-# Brands
+# SS Brands
 
 ### Content
 "Content coming soon".

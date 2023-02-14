@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Products
-parent: CTUK
-grand_parent: Brands
-nav_order: 1
+title: Discontinuing Products
+parent: CTX
+grand_parent: WIC Brands
+nav_order: 4
 ---
 
-# Products
+# Discontinuing Products
 {: .no_toc}
 
 ## Table of Contents

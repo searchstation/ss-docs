@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Analytics
-parent: General
+parent: Processes
 has_children: true
-nav_order: 4
-permalink: /general/analytics
+nav_order: 1
+permalink: /processes/analytics
 ---
 
 # Analytics

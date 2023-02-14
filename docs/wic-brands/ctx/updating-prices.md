@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Adding New Products
-parent: CTUK
-grand_parent: Brands
-nav_order: 2
+title: Updating Prices
+parent: CTX
+grand_parent: WIC Brands
+nav_order: 5
 ---
 
-# Adding New Products
+# Updating Prices
 {: .no_toc}
 
 ## Table of Contents

@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Removing Products
-parent: CTUK
-grand_parent: Brands
+parent: CTX
+grand_parent: WIC Brands
 nav_order: 3
 ---
 

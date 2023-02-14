@@ -2,7 +2,7 @@
 layout: default
 title: Products
 parent: WIS
-grand_parent: Brands
+grand_parent: WIC Brands
 nav_order: 1
 ---
 

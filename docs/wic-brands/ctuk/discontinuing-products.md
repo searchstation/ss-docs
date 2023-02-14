@@ -2,7 +2,7 @@
 layout: default
 title: Discontinuing Products
 parent: CTUK
-grand_parent: Brands
+grand_parent: WIC Brands
 nav_order: 4
 ---
 

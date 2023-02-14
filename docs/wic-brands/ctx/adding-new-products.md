@@ -1,24 +1,20 @@
 ---
 layout: default
-title: CTX 
-parent: Brands
-has_children: true
+title: Adding New Products
+parent: CTX
+grand_parent: WIC Brands
 nav_order: 2
-permalink: /docs/brands/ctx
 ---
 
-# CTX
+# Adding New Products
 {: .no_toc}
 
 ## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
-   {:toc}
+{:toc}
 ---
 
 ### Content
 "Content coming soon".
-
-
-{: .fs-6 .fw-300 }

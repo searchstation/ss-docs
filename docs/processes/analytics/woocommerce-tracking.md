@@ -2,7 +2,7 @@
 layout: default
 title: WooCommerce Tracking
 parent: Analytics
-grand_parent: General
+grand_parent: Processes
 nav_order: 2
 ---
 

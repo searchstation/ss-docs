@@ -1,24 +1,23 @@
 ---
 layout: default
-title: CTUK
-parent: Brands
+title: WIS
+parent: WIC Brands
 has_children: true
-nav_order: 1
-permalink: /brands/ctuk
+nav_order: 3
+permalink: /docs/brands/wis
 ---
 
-# CTUK
+# WIS
 {: .no_toc}
 
 ## Table of Contents
 {: .no_toc .text-delta }
 
 1. TOC
-{:toc}
+   {:toc}
 ---
 
 ### Content
 "Content coming soon".
-
 
 {: .fs-6 .fw-300 }

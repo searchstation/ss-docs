@@ -1,9 +1,9 @@
 ---
 layout: default
-title: General
+title: Processes
 has_children: true
-nav_order: 5
-permalink: /general
+nav_order: 4
+permalink: /processes
 ---
 
 # General
