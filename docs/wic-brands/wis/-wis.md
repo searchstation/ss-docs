@@ -4,7 +4,7 @@ title: WIS
 parent: WIC Brands
 has_children: true
 nav_order: 3
-permalink: /docs/brands/wis
+permalink: /docs/wic-brands/wis
 ---
 
 # WIS
