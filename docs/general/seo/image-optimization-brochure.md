@@ -33,7 +33,7 @@ This document outlines an optimised image naming convention for brochure sites. 
 ### Image Naming
 Images should be named based on the content of the image. In the case of multiple words, which is very common, each word should be separated with hyphens.
 
-<img src="../../../assets/images/seo-images/office-meeting-space.jpg" alt="Office Meeting Space">
+<img src="https://searchstation.github.io/ss-docs/assets/images/seo-images/office-meeting-space.jpg" alt="Office Meeting Space">
 
 For example, the image above should take the naming format - `office-meeting-space.jpg`.
 

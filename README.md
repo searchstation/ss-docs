@@ -95,7 +95,8 @@ You're free to customize sites that you create with this template, however you l
 - Understanding the structure of the documentation is important.
 - In line with the structure, it is advisable to ensure that each page has a permalink.
 - The permalink facilitates the structure as this documentation theme, by default, displays the site elements according to the folder structure.
-- This isn't always beneficial, especially in aspects of attaching images, videos, etc.
+- This default isn't always beneficial, especially in aspects of attaching images, videos, etc.
+- Also, regarding images, videos, and other media resources, it is best to point their sources to the url where there are hosted.
 
 ## Licensing and Attribution
 
