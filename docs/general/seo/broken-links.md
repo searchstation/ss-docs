@@ -3,7 +3,7 @@ layout: default
 title: Broken Links
 parent: SEO
 grand_parent: General
-nav_order: 3
+nav_order: 4
 ---
 
 # Broken Links

@@ -3,7 +3,7 @@ layout: default
 title: Orphaned Pages
 parent: SEO
 grand_parent: General
-nav_order: 4
+nav_order: 5
 ---
 
 # Orphaned Pages

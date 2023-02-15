@@ -3,7 +3,7 @@ layout: default
 title: Site Speed
 parent: SEO
 grand_parent: General
-nav_order: 5
+nav_order: 6
 ---
 
 # Site Speed
