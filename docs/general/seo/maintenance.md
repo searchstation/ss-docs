@@ -4,6 +4,7 @@ title: Maintenance
 parent: SEO
 grand_parent: General
 nav_order: 1
+permalink: /general/seo/maintenance
 ---
 
 # Maintenance

@@ -4,6 +4,7 @@ title: Products
 parent: CTUK
 grand_parent: WIC Brands
 nav_order: 1
+permalink: /wic-brands/ctuk/products
 ---
 
 # Products

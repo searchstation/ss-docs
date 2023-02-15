@@ -4,7 +4,7 @@ title: CTX
 parent: WIC Brands
 has_children: true
 nav_order: 2
-permalink: /docs/wic-brands/ctx
+permalink: /wic-brands/ctx
 ---
 
 # CTX

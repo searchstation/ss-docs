@@ -4,6 +4,7 @@ title: Orphaned Pages
 parent: SEO
 grand_parent: General
 nav_order: 5
+permalink: /general/seo/orphaned-pages
 ---
 
 # Orphaned Pages

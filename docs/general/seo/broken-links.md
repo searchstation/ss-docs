@@ -4,6 +4,7 @@ title: Broken Links
 parent: SEO
 grand_parent: General
 nav_order: 4
+permalink: /general/seo/broken-links
 ---
 
 # Broken Links

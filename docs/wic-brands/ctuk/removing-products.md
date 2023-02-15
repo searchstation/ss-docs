@@ -4,6 +4,7 @@ title: Removing Products
 parent: CTUK
 grand_parent: WIC Brands
 nav_order: 3
+permalink: /wic-brands/ctuk/removing-products
 ---
 
 # Removing Products

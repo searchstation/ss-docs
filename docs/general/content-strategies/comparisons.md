@@ -4,6 +4,7 @@ title: Comparisons
 parent: Content Strategies
 grand_parent: General
 nav_order: 3
+permalink: /general/content-strategies/comparisons
 ---
 
 # Comparisons

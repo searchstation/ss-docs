@@ -4,6 +4,7 @@ title: Image Optimization (E-Commerce)
 parent: SEO
 grand_parent: General
 nav_order: 3
+permalink: /general/seo/image-optimization-e-commerce
 ---
 
 # Image Optimization

@@ -4,6 +4,7 @@ title: Best Practices
 parent: SEO
 grand_parent: General
 nav_order: 7
+permalink: /general/seo/best-practices
 ---
 
 # Best Practices

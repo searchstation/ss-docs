@@ -4,6 +4,7 @@ title: Adding New Products
 parent: CTUK
 grand_parent: WIC Brands
 nav_order: 2
+permalink: /wic-brands/ctuk/adding-new-products
 ---
 
 # Adding New Products

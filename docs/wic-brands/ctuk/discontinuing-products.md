@@ -4,6 +4,7 @@ title: Discontinuing Products
 parent: CTUK
 grand_parent: WIC Brands
 nav_order: 4
+permalink: /wic-brands/ctuk/discontinuing-products
 ---
 
 # Discontinuing Products

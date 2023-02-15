@@ -4,6 +4,7 @@ title: Site Speed
 parent: SEO
 grand_parent: General
 nav_order: 6
+permalink: /general/seo/site-speed
 ---
 
 # Site Speed

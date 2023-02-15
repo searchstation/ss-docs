@@ -4,6 +4,7 @@ title: Call Tracking
 parent: Analytics
 grand_parent: Processes
 nav_order: 3
+permalink: /processes/analytics/call-tracking
 ---
 
 # Call Tracking

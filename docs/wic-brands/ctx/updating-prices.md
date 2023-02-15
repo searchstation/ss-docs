@@ -4,6 +4,7 @@ title: Updating Prices
 parent: CTX
 grand_parent: WIC Brands
 nav_order: 5
+permalink: /wic-brands/ctx/updating-prices
 ---
 
 # Updating Prices

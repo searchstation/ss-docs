@@ -90,6 +90,13 @@ You're free to customize sites that you create with this template, however you l
 
 [Browse our documentation][Just the Docs] to learn more about how to use this theme.
 
+## Points to Note
+
+- Understanding the structure of the documentation is important.
+- In line with the structure, it is advisable to ensure that each page has a permalink.
+- The permalink facilitates the structure as this documentation theme, by default, displays the site elements according to the folder structure.
+- This isn't always beneficial, especially in aspects of attaching images, videos, etc.
+
 ## Licensing and Attribution
 
 This repository is licensed under the [MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!

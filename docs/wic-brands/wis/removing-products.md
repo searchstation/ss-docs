@@ -4,6 +4,7 @@ title: Removing Products
 parent: WIS
 grand_parent: WIC Brands
 nav_order: 3
+permalink: /wic-brands/wis/removing-products
 ---
 
 # Removing Products

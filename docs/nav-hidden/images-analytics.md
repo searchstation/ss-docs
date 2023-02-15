@@ -21,6 +21,7 @@ permalink: /images-analytics
 ![](../../assets/images/docs-images/gtm-2.jpg)
 
 ### GTM - Tag Configuration with Measurement ID
+
 ![](../../assets/images/docs-images/gtm-3.jpg)
 
 ### Videos - Embed Videos im Markdown files

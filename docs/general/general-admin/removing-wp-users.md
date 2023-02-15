@@ -4,6 +4,7 @@ title: Removing WP Users
 parent: General Admin
 grand_parent: General
 nav_order: 2
+permalink: /general/general-admin/removing-wp-users
 ---
 
 # Removing WP Users

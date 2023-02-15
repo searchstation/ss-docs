@@ -4,6 +4,7 @@ title: Event Tracking
 parent: Analytics
 grand_parent: Processes
 nav_order: 1
+permalink: /processes/analytics/event-tracking
 ---
 
 # Event Tracking

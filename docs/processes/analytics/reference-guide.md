@@ -4,6 +4,7 @@ title: Reference Guide
 parent: Analytics
 grand_parent: Processes
 nav_order: 4
+permalink: /processes/analytics/reference-guide
 ---
 
 # Reference Guide

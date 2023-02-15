@@ -4,6 +4,7 @@ title: General Admin
 parent: General
 has_children: true
 nav_order: 1
+permalink: /general/general-admin
 ---
 
 # General Admin

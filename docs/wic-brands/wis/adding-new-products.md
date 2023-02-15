@@ -4,6 +4,7 @@ title: Adding New Products
 parent: WIS
 grand_parent: WIC Brands
 nav_order: 2
+permalink: /wic-brands/wis/adding-new-products
 ---
 
 # Adding New Products

@@ -4,6 +4,7 @@ title: Updating Prices
 parent: WIS
 grand_parent: WIC Brands
 nav_order: 5
+permalink: /wic-brands/wis/updating-prices
 ---
 
 # Updating Prices

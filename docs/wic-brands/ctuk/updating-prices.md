@@ -4,6 +4,7 @@ title: Updating Prices
 parent: CTUK
 grand_parent: WIC Brands
 nav_order: 5
+permalink: /wic-brands/ctuk/updating-prices
 ---
 
 # Updating Prices

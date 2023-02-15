@@ -4,6 +4,7 @@ title: WooCommerce Tracking
 parent: Analytics
 grand_parent: Processes
 nav_order: 2
+permalink: /processes/analytics/woocommerce-tracking
 ---
 
 # WooCommerce Tracking

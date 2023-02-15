@@ -4,6 +4,7 @@ title: Managing Plugins
 parent: General Admin
 grand_parent: General
 nav_order: 3
+permalink: /general/general-admin/managing-plugins
 ---
 
 # Managing Plugins

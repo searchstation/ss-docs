@@ -4,6 +4,7 @@ title: Lists
 parent: Content Strategies
 grand_parent: General
 nav_order: 2
+permalink: /general/content-strategies/lists
 ---
 
 # Lists
