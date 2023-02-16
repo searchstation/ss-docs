@@ -25,7 +25,7 @@ There are only two required steps to discontinue a product:
 1. In the Product Data section of the product, change the Product Type to “Discontinued”
 2. Change the “Menu Order” value to a higher value to demote the product within the catalogue. For example, if the product has a Menu Order of 20, changing it to 2000 would ensure it appears at the end of the product catalogue list.
 
-<img src="https://searchstation.github.io/ss-docs/assets/images/e-commerce-images/discontinuing-products-2.jpg" alt="Discontinuing Products">
+<img src="https://searchstation.github.io/ss-docs/assets/images/e-commerce-images/discontinuing-products-1.jpg" alt="Discontinuing Products">
 
 ### Dynamic metadata for discontinued products
 A number of rules have been set up to remove certain metadata and functions for a discontinued product. This data can remain in place on the product page. This includes:

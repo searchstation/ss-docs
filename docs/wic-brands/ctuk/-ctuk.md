@@ -3,7 +3,7 @@ layout: default
 title: CTUK
 parent: WIC Brands
 has_children: true
-nav_order: 1
+nav_order: 3
 permalink: /wic-brands/ctuk
 ---
 
