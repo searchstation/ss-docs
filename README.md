@@ -5,6 +5,8 @@ This is a *bare-minimum* template to create a [Jekyll] site that:
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];
 - can be built and previewed locally, and published on other platforms.
+- [Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- To get started with creating a site, just click "[use this template]"!
 
 More specifically, the created site:
 

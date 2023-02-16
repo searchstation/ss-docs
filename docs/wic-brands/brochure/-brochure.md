@@ -1,13 +1,13 @@
 ---
 layout: default
-title: WIS
+title: Brochure
 parent: WIC Brands
 has_children: true
-nav_order: 5
-permalink: /wic-brands/wis
+nav_order: 2
+permalink: /wic-brands/brochure
 ---
 
-# WIS
+# Brochure
 {: .no_toc}
 
 ## Table of Contents
@@ -18,6 +18,7 @@ permalink: /wic-brands/wis
 ---
 
 ### Content
-"Content coming soon".
+Information that is generic across Brochure websites.
+
 
 {: .fs-6 .fw-300 }

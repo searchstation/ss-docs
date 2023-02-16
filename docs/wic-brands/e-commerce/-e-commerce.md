@@ -1,13 +1,13 @@
 ---
 layout: default
-title: WIS
+title: E-Commerce
 parent: WIC Brands
 has_children: true
-nav_order: 5
-permalink: /wic-brands/wis
+nav_order: 1
+permalink: /wic-brands/e-commerce
 ---
 
-# WIS
+# E-Commerce
 {: .no_toc}
 
 ## Table of Contents
@@ -18,6 +18,7 @@ permalink: /wic-brands/wis
 ---
 
 ### Content
-"Content coming soon".
+Information that is generic across E-Commerce websites.
+
 
 {: .fs-6 .fw-300 }
