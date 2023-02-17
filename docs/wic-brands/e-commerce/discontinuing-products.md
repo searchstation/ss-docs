@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Discontinuing E-Commerce Products
+title: Discontinuing Products
 parent: E-Commerce
 grand_parent: WIC Brands
 nav_order: 1
-permalink: /wic-brands/e-commerce/discontinuing-e-commerce-products
+permalink: /wic-brands/e-commerce/discontinuing-products
 ---
 
 # Discontinuing Products
