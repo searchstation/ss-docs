@@ -24,11 +24,6 @@ This document outlines an optimised image naming convention for brochure sites. 
 - File type: JPG
 - Optimum size: 1200px by 1200px
 - Target file size: 80~150kb (we can compress on upload)
-- Image variations (where applicable, each image should be named appropriately, bearing the variations in mind):
-    - Images on different backgrounds,
-    - Images with brand logos,
-    - Images with the key specs (size/features),
-    - The image being used in-situ,etc.
 
 ### Image Naming
 Images should be named based on the content of the image. In the case of multiple words, which is very common, each word should be separated with hyphens.
