@@ -18,19 +18,24 @@ permalink: /general/seo/image-optimization-brochure
 ---
 
 ### Introduction
-This document outlines an optimised image naming convention for brochure sites. This convention allows images to be bulk imported and exported from the site.
+This document outlines how to optimise image before they are uploaded to a website.
 
 ### Image Specification
 - File type: JPG
-- Optimum size: 1200px by 1200px
+- Optimum size: 1200px width*
 - Target file size: 80~150kb (we can compress on upload)
+
+*Each website will have a slightly different setup when it comes to image size. Most sites use a 4:6 or 5:7 format. You can check this be logging in to the site, going to Settings > Media and using the Large image size as the base image size.
 
 ### Image Naming
 Images should be named based on the content of the image. In the case of multiple words, which is very common, each word should be separated with hyphens.
 
-<img src="https://searchstation.github.io/ss-docs/assets/images/seo-images/office-meeting-space.jpg" alt="Office Meeting Space">
+<img src="https://searchstation.github.io/ss-docs/assets/images/seo-images/office-meeting-space.jpg" width="300" alt="Office Meeting Space">
 
 For example, the image above should take the naming format - `office-meeting-space.jpg`.
 
+### ALT Image Tags
+ALT Image tags are used to tell search engines what the image is. ALT tags are good SEO practice and should be added to all images. ALT Tags can be edited either when uploading an image or via the media libray. Open an image and look for the ALT title meta box.
+
 ### Folder Structure
-All images should be saved in a single folder (no sub-folders). This makes it easy to spot missing images and also means the import process can look at a single directory for all image files.
+When preparing images for upload, we advise adding these into folders that relate to the page they are being uploaded to.
