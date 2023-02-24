@@ -9,5 +9,5 @@ permalink: /ss-brands
 # SS Brands
 
 ### Content
-"Content coming soon".
+"Content coming soonish".
 {: .fs-6 .fw-300 }
