@@ -27,9 +27,9 @@ There are four required steps to discontinue a product:
 3. Look at the relevance of "Key Benefit bullet points and if no longer needed, update key benefit 1 to read: "This product is now discontinued. Take a look at the replacement ceiling tile. Click on the link below."
 4. Change the “Menu Order” value to a higher value to demote the product within the catalogue. For example, if the product has a Menu Order of 20, changing it to 2000 would ensure it appears at the end of the product catalogue list.
 
-<pre>
+<!-- <pre>
 The [PRODUCT TITLE] ceiling tile is now Discontinued, however we recommend that you check out the [ALTERNATIVE PRODUCT] replacement tile
-</pre>
+</pre> -->
 
 <img src="https://searchstation.github.io/ss-docs/assets/images/e-commerce-images/discontinuing-products-1.jpg" alt="Discontinuing Products">
 
